@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Recap</title>
+        <style type="text/css">
+            body {
+                background: black;
+                color: white;
+            }
+            ul.blue {
+                color: deepskyblue;
+            }
+            #exciting {
+                color: orange;
+            }
+            img#goat {
+                transition: all 3s;
+                position: relative;
+                width: 40vw;
+                left: 30;
+            }
+            img:hover {
+                transform: rotate(360deg);
+                filter: hue-rotate(360deg);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Recap</h1>
+        This is a small page to <span id="exciting">demo a few CSS things</span>
+        <ul id="exciting" class="blue">
+        <li>This is an</li>
+        <li>unordered</li>
+        <li>list</li>
+        </ul>
+            <img id="goat" src="goat.jpg"/>
+    </body>
+</html>
